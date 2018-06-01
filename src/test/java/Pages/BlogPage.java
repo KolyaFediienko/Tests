@@ -152,8 +152,7 @@ public class BlogPage {
     {
         AboutBlog5.click();
     }
-    asdasdasdasdasdasd
-            asdasdasdasdasdasd
+    aasddhhhhh
     public void clickAboutBlog6()
     {
         AboutBlog6.click();
