@@ -1,15 +1,27 @@
 package Pages;
 
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.Dimension;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.PageFactory;
+import org.testng.annotations.BeforeTest;
+
+import java.util.concurrent.TimeUnit;
 
 public class Pageforgit { public void clickPodatZayavky()
 {
-  
-}
-    @FindBy(xpath = "/html/body/div[7]/div[3]/div/div[2]/div[1]/div[2]/div/div/div/div/div[2]/div/div[1]/div/div[2]/div/table/tr/td[1]/div[2]/div[2]/div/div[3]/div/div/div/div/div/div[1]/div[2]/div[7]/div/div[1]/table/tbody/tr[2]/td/table/tbody/tr[3]/td/table/tbody/tr[1]/td/table/tbody/tr[4]/td/a")
-    private WebElement Messag1;
 
-    @FindBy(xpath = "/html/body/div[1]/div[4]/div/div[2]/div/form[2]/div/div[4]/button")
-    private WebElement passwordnew;
+}
+
+    @BeforeTest
+    protected WebDriver getDriver()
+    {
+        System.setProperty("webdriver.chrome.driver", "C:\\chromedriver_win32\\chromedriver_win32 (1)\\chromedriver.exe");
+        driver = new ChromeDriver();
+        driver.manage().window().setSize(new Dimension(1920, 1080));
+        driver.manage().timeouts().implicitlyWait(7, TimeUnit.SECONDS);
+        driver.manage().window().maximize();
+        PageFactory.initElements(driver,this);
+        return driver;
+    }
 }
