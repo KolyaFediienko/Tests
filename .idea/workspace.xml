@@ -54,8 +54,8 @@
       <file leaf-file-name="ForgotPaswordPage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Pages/ForgotPaswordPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1547">
-              <caret line="109" column="7" lean-forward="false" selection-start-line="109" selection-start-column="7" selection-end-line="109" selection-end-column="7" />
+            <state relative-caret-position="107">
+              <caret line="47" column="3" lean-forward="false" selection-start-line="47" selection-start-column="3" selection-end-line="57" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -87,9 +87,11 @@
       <file leaf-file-name="Pageforgit.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/Pages/Pageforgit.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="2" lean-forward="false" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
-              <folding />
+            <state relative-caret-position="340">
+              <caret line="20" column="24" lean-forward="false" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -271,8 +273,8 @@
         <option value="$PROJECT_DIR$/src/test/java/Pages/ForgotPaswordPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/Tests/ForgotPaswordTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/Tests/TestReklama.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Pages/Pageforgit.java" />
         <option value="$PROJECT_DIR$/src/test/java/Pages/BlogPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Pages/Pageforgit.java" />
       </list>
     </option>
   </component>
@@ -690,7 +692,7 @@
       <workItem from="1519294102003" duration="692000" />
       <workItem from="1520072792392" duration="166000" />
       <workItem from="1527776330956" duration="1031000" />
-      <workItem from="1527831664548" duration="1999000" />
+      <workItem from="1527831664548" duration="2419000" />
     </task>
     <servers />
   </component>
@@ -727,7 +729,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="259802000" />
+    <option name="totallyTimeSpent" value="260222000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -1079,14 +1081,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Pages/ForgotPaswordPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1547">
-          <caret line="109" column="7" lean-forward="false" selection-start-line="109" selection-start-column="7" selection-end-line="109" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Tests/TestReklama.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
@@ -1125,11 +1119,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Pages/ForgotPaswordPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="47" column="3" lean-forward="false" selection-start-line="47" selection-start-column="3" selection-end-line="57" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Pages/Pageforgit.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="2" lean-forward="false" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
-          <folding />
+        <state relative-caret-position="340">
+          <caret line="20" column="24" lean-forward="false" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
