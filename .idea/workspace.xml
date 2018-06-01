@@ -71,8 +71,8 @@
       <file leaf-file-name="BlogPage.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/Pages/BlogPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="154" column="13" lean-forward="false" selection-start-line="154" selection-start-column="13" selection-end-line="154" selection-end-column="13" />
+            <state relative-caret-position="413">
+              <caret line="155" column="30" lean-forward="false" selection-start-line="155" selection-start-column="30" selection-end-line="155" selection-end-column="30" />
               <folding>
                 <element signature="e#4169#4170#0" expanded="true" />
                 <element signature="e#4226#4227#0" expanded="true" />
@@ -284,7 +284,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
     <option name="y" value="47" />
     <option name="width" value="1400" />
@@ -676,7 +676,7 @@
       <workItem from="1519294102003" duration="692000" />
       <workItem from="1520072792392" duration="166000" />
       <workItem from="1527776330956" duration="1031000" />
-      <workItem from="1527831664548" duration="746000" />
+      <workItem from="1527831664548" duration="1256000" />
     </task>
     <servers />
   </component>
@@ -713,7 +713,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="258549000" />
+    <option name="totallyTimeSpent" value="259059000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -726,7 +726,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1107,8 +1107,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Pages/BlogPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="154" column="13" lean-forward="false" selection-start-line="154" selection-start-column="13" selection-end-line="154" selection-end-column="13" />
+        <state relative-caret-position="413">
+          <caret line="155" column="30" lean-forward="false" selection-start-line="155" selection-start-column="30" selection-end-line="155" selection-end-column="30" />
           <folding>
             <element signature="e#4169#4170#0" expanded="true" />
             <element signature="e#4226#4227#0" expanded="true" />
