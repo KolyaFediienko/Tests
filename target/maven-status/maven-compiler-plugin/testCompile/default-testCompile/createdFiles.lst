@@ -1,0 +1,4 @@
+Tests\BlogTest.class
+Tests\SharesTest.class
+Pages\SharesPage.class
+Pages\BlogPage.class

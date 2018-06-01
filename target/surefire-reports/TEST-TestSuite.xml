@@ -1,0 +1,986 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="129" failures="73" name="TestSuite" time="644.284" errors="0" skipped="0">
+  <properties>
+    <property name="idea.version" value="2017.2.5"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_144\jre\bin"/>
+    <property name="java.vm.version" value="25.144-b01"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\user\IdeaProjects\AutoTests"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="RU"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\user\IdeaProjects\AutoTests"/>
+    <property name="java.runtime.version" value="1.8.0_144-b01"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_144\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\user\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA 2017.2.5\plugins\maven\lib\maven3\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1251"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_144\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\ManagementStudio\;C:\Users\user\AppData\Local\Microsoft\WindowsApps;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\user"/>
+    <property name="user.timezone" value="Europe/Moscow"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="user"/>
+    <property name="java.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA 2017.2.5\plugins\maven\lib\maven3\boot\plexus-classworlds-2.5.2.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2017.2.5\lib\idea_rt.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_144\jre"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2017.2.5 package"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="ru"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_144"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_144\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_144\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_144\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\JetBrains\IntelliJ IDEA 2017.2.5\plugins\maven\lib\maven3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="Tests.BlogTest" name="TestAboutShare1" time="3.448"/>
+  <testcase classname="Tests.BlogTest" name="TestAboutShare10" time="4.066"/>
+  <testcase classname="Tests.BlogTest" name="TestAboutShare11" time="4.105"/>
+  <testcase classname="Tests.BlogTest" name="TestAboutShare12" time="4.224"/>
+  <testcase classname="Tests.BlogTest" name="TestAboutShare13" time="4.267"/>
+  <testcase classname="Tests.BlogTest" name="TestAboutShare14" time="4.252"/>
+  <testcase classname="Tests.BlogTest" name="TestAboutShare15" time="4.16"/>
+  <testcase classname="Tests.BlogTest" name="TestAboutShare16" time="4.969"/>
+  <testcase classname="Tests.BlogTest" name="TestAboutShare17" time="4.286"/>
+  <testcase classname="Tests.BlogTest" name="TestAboutShare18" time="3.992"/>
+  <testcase classname="Tests.BlogTest" name="TestAboutShare19" time="4.137"/>
+  <testcase classname="Tests.BlogTest" name="TestAboutShare2" time="2.487"/>
+  <testcase classname="Tests.BlogTest" name="TestAboutShare20" time="4.047"/>
+  <testcase classname="Tests.BlogTest" name="TestAboutShare21" time="4.226"/>
+  <testcase classname="Tests.BlogTest" name="TestAboutShare22" time="4.099"/>
+  <testcase classname="Tests.BlogTest" name="TestAboutShare23" time="4.093"/>
+  <testcase classname="Tests.BlogTest" name="TestAboutShare24" time="4.312"/>
+  <testcase classname="Tests.BlogTest" name="TestAboutShare25" time="3.728"/>
+  <testcase classname="Tests.BlogTest" name="TestAboutShare26" time="4.125"/>
+  <testcase classname="Tests.BlogTest" name="TestAboutShare27" time="4.301"/>
+  <testcase classname="Tests.BlogTest" name="TestAboutShare28" time="4.252"/>
+  <testcase classname="Tests.BlogTest" name="TestAboutShare29" time="4.345"/>
+  <testcase classname="Tests.BlogTest" name="TestAboutShare3" time="2.751"/>
+  <testcase classname="Tests.BlogTest" name="TestAboutShare30" time="4.018"/>
+  <testcase classname="Tests.BlogTest" name="TestAboutShare31" time="4.309"/>
+  <testcase classname="Tests.BlogTest" name="TestAboutShare32" time="9.69"/>
+  <testcase classname="Tests.BlogTest" name="TestAboutShare33" time="13.025"/>
+  <testcase classname="Tests.BlogTest" name="TestAboutShare34" time="13.031"/>
+  <testcase classname="Tests.BlogTest" name="TestAboutShare35" time="13.963">
+    <failure message="The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]" type="java.lang.AssertionError">java.lang.AssertionError: The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at Tests.BlogTest.TestAboutShare35(BlogTest.java:495)
+</failure>
+  </testcase>
+  <testcase classname="Tests.BlogTest" name="TestAboutShare36" time="18.504">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;/html/body/div[1]/div[4]/div/div[2]/div/div[2]/div/div[1]/div[2]/p[1]&quot;}
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 7.03 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;DESKTOP-2VD0QVH&apos;, ip: &apos;192.168.1.118&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\user\AppData\Local\Temp\scoped_dir51096_23193}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 3fb7fe4d91a211b6eda11b6c4514f329
+*** Element info: {Using=xpath, value=/html/body/div[1]/div[4]/div/div[2]/div/div[2]/div/div[1]/div[2]/p[1]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;/html/body/div[1]/div[4]/div/div[2]/div/div[2]/div/div[1]/div[2]/p[1]&quot;}
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 7.03 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;DESKTOP-2VD0QVH&apos;, ip: &apos;192.168.1.118&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\user\AppData\Local\Temp\scoped_dir51096_23193}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 3fb7fe4d91a211b6eda11b6c4514f329
+*** Element info: {Using=xpath, value=/html/body/div[1]/div[4]/div/div[2]/div/div[2]/div/div[1]/div[2]/p[1]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at Pages.BlogPage.Gettext(BlogPage.java:105)
+	at Tests.BlogTest.TestAboutShare36(BlogTest.java:503)
+</failure>
+  </testcase>
+  <testcase classname="Tests.BlogTest" name="TestAboutShare37" time="18.648">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;/html/body/div[1]/div[4]/div/div[2]/div/div[2]/div/div[1]/div[2]/p[1]&quot;}
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 7.07 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;DESKTOP-2VD0QVH&apos;, ip: &apos;192.168.1.118&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\user\AppData\Local\Temp\scoped_dir51096_23193}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 3fb7fe4d91a211b6eda11b6c4514f329
+*** Element info: {Using=xpath, value=/html/body/div[1]/div[4]/div/div[2]/div/div[2]/div/div[1]/div[2]/p[1]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;/html/body/div[1]/div[4]/div/div[2]/div/div[2]/div/div[1]/div[2]/p[1]&quot;}
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 7.07 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;DESKTOP-2VD0QVH&apos;, ip: &apos;192.168.1.118&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\user\AppData\Local\Temp\scoped_dir51096_23193}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 3fb7fe4d91a211b6eda11b6c4514f329
+*** Element info: {Using=xpath, value=/html/body/div[1]/div[4]/div/div[2]/div/div[2]/div/div[1]/div[2]/p[1]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at Pages.BlogPage.Gettext(BlogPage.java:105)
+	at Tests.BlogTest.TestAboutShare37(BlogTest.java:523)
+</failure>
+  </testcase>
+  <testcase classname="Tests.BlogTest" name="TestAboutShare38" time="18.679">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;/html/body/div[1]/div[4]/div/div[2]/div/div[2]/div/div[1]/div[2]/p[1]&quot;}
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 7.01 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;DESKTOP-2VD0QVH&apos;, ip: &apos;192.168.1.118&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\user\AppData\Local\Temp\scoped_dir51096_23193}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 3fb7fe4d91a211b6eda11b6c4514f329
+*** Element info: {Using=xpath, value=/html/body/div[1]/div[4]/div/div[2]/div/div[2]/div/div[1]/div[2]/p[1]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;/html/body/div[1]/div[4]/div/div[2]/div/div[2]/div/div[1]/div[2]/p[1]&quot;}
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 7.01 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;DESKTOP-2VD0QVH&apos;, ip: &apos;192.168.1.118&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\user\AppData\Local\Temp\scoped_dir51096_23193}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 3fb7fe4d91a211b6eda11b6c4514f329
+*** Element info: {Using=xpath, value=/html/body/div[1]/div[4]/div/div[2]/div/div[2]/div/div[1]/div[2]/p[1]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at Pages.BlogPage.Gettext(BlogPage.java:105)
+	at Tests.BlogTest.TestAboutShare38(BlogTest.java:534)
+</failure>
+  </testcase>
+  <testcase classname="Tests.BlogTest" name="TestAboutShare39" time="8.242">
+    <failure message="The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]" type="java.lang.AssertionError">java.lang.AssertionError: The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at Tests.BlogTest.TestAboutShare39(BlogTest.java:548)
+</failure>
+  </testcase>
+  <testcase classname="Tests.BlogTest" name="TestAboutShare4" time="3.258">
+    <failure message="The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]" type="java.lang.AssertionError">java.lang.AssertionError: The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at Tests.BlogTest.TestAboutShare4(BlogTest.java:86)
+</failure>
+  </testcase>
+  <testcase classname="Tests.BlogTest" name="TestAboutShare40" time="4.008">
+    <failure message="The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]" type="java.lang.AssertionError">java.lang.AssertionError: The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at Tests.BlogTest.TestAboutShare40(BlogTest.java:559)
+</failure>
+  </testcase>
+  <testcase classname="Tests.BlogTest" name="TestAboutShare41" time="4.238">
+    <failure message="The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]" type="java.lang.AssertionError">java.lang.AssertionError: The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at Tests.BlogTest.TestAboutShare41(BlogTest.java:570)
+</failure>
+  </testcase>
+  <testcase classname="Tests.BlogTest" name="TestAboutShare42" time="4.221">
+    <failure message="The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]" type="java.lang.AssertionError">java.lang.AssertionError: The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at Tests.BlogTest.TestAboutShare42(BlogTest.java:581)
+</failure>
+  </testcase>
+  <testcase classname="Tests.BlogTest" name="TestAboutShare43" time="4.267">
+    <failure message="The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]" type="java.lang.AssertionError">java.lang.AssertionError: The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at Tests.BlogTest.TestAboutShare43(BlogTest.java:601)
+</failure>
+  </testcase>
+  <testcase classname="Tests.BlogTest" name="TestAboutShare44" time="4.262">
+    <failure message="The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]" type="java.lang.AssertionError">java.lang.AssertionError: The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at Tests.BlogTest.TestAboutShare44(BlogTest.java:612)
+</failure>
+  </testcase>
+  <testcase classname="Tests.BlogTest" name="TestAboutShare45" time="4.179">
+    <failure message="The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]" type="java.lang.AssertionError">java.lang.AssertionError: The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at Tests.BlogTest.TestAboutShare45(BlogTest.java:623)
+</failure>
+  </testcase>
+  <testcase classname="Tests.BlogTest" name="TestAboutShare46" time="4.107">
+    <failure message="The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]" type="java.lang.AssertionError">java.lang.AssertionError: The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at Tests.BlogTest.TestAboutShare46(BlogTest.java:634)
+</failure>
+  </testcase>
+  <testcase classname="Tests.BlogTest" name="TestAboutShare47" time="3.578">
+    <failure message="The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]" type="java.lang.AssertionError">java.lang.AssertionError: The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at Tests.BlogTest.TestAboutShare47(BlogTest.java:645)
+</failure>
+  </testcase>
+  <testcase classname="Tests.BlogTest" name="TestAboutShare48" time="4.209">
+    <failure message="The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]" type="java.lang.AssertionError">java.lang.AssertionError: The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at Tests.BlogTest.TestAboutShare48(BlogTest.java:656)
+</failure>
+  </testcase>
+  <testcase classname="Tests.BlogTest" name="TestAboutShare49" time="13.579">
+    <failure message="The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]" type="java.lang.AssertionError">java.lang.AssertionError: The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at Tests.BlogTest.TestAboutShare49(BlogTest.java:676)
+</failure>
+  </testcase>
+  <testcase classname="Tests.BlogTest" name="TestAboutShare5" time="13.252">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;/html/body/div[1]/div[4]/div/div[2]/div/div[2]/div/div[1]/div[2]/p[1]&quot;}
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 7.05 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;DESKTOP-2VD0QVH&apos;, ip: &apos;192.168.1.118&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\user\AppData\Local\Temp\scoped_dir51096_23193}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 3fb7fe4d91a211b6eda11b6c4514f329
+*** Element info: {Using=xpath, value=/html/body/div[1]/div[4]/div/div[2]/div/div[2]/div/div[1]/div[2]/p[1]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;/html/body/div[1]/div[4]/div/div[2]/div/div[2]/div/div[1]/div[2]/p[1]&quot;}
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 7.05 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;DESKTOP-2VD0QVH&apos;, ip: &apos;192.168.1.118&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\user\AppData\Local\Temp\scoped_dir51096_23193}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 3fb7fe4d91a211b6eda11b6c4514f329
+*** Element info: {Using=xpath, value=/html/body/div[1]/div[4]/div/div[2]/div/div[2]/div/div[1]/div[2]/p[1]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at Pages.BlogPage.Gettext(BlogPage.java:105)
+	at Tests.BlogTest.TestAboutShare5(BlogTest.java:94)
+</failure>
+  </testcase>
+  <testcase classname="Tests.BlogTest" name="TestAboutShare50" time="26.207">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;/html/body/div[1]/div[4]/div/div[2]/div/div[2]/div/div[1]/div[2]/p[1]&quot;}
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 14.57 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;DESKTOP-2VD0QVH&apos;, ip: &apos;192.168.1.118&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\user\AppData\Local\Temp\scoped_dir51096_23193}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 3fb7fe4d91a211b6eda11b6c4514f329
+*** Element info: {Using=xpath, value=/html/body/div[1]/div[4]/div/div[2]/div/div[2]/div/div[1]/div[2]/p[1]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;/html/body/div[1]/div[4]/div/div[2]/div/div[2]/div/div[1]/div[2]/p[1]&quot;}
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 14.57 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;DESKTOP-2VD0QVH&apos;, ip: &apos;192.168.1.118&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\user\AppData\Local\Temp\scoped_dir51096_23193}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 3fb7fe4d91a211b6eda11b6c4514f329
+*** Element info: {Using=xpath, value=/html/body/div[1]/div[4]/div/div[2]/div/div[2]/div/div[1]/div[2]/p[1]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at Pages.BlogPage.Gettext(BlogPage.java:105)
+	at Tests.BlogTest.TestAboutShare50(BlogTest.java:684)
+</failure>
+  </testcase>
+  <testcase classname="Tests.BlogTest" name="TestAboutShare51" time="4.505">
+    <failure message="The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]" type="java.lang.AssertionError">java.lang.AssertionError: The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at Tests.BlogTest.TestAboutShare51(BlogTest.java:698)
+</failure>
+  </testcase>
+  <testcase classname="Tests.BlogTest" name="TestAboutShare52" time="4.213">
+    <failure message="The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]" type="java.lang.AssertionError">java.lang.AssertionError: The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at Tests.BlogTest.TestAboutShare52(BlogTest.java:709)
+</failure>
+  </testcase>
+  <testcase classname="Tests.BlogTest" name="TestAboutShare53" time="3.543">
+    <failure message="The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]" type="java.lang.AssertionError">java.lang.AssertionError: The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at Tests.BlogTest.TestAboutShare53(BlogTest.java:720)
+</failure>
+  </testcase>
+  <testcase classname="Tests.BlogTest" name="TestAboutShare54" time="4.111">
+    <failure message="The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]" type="java.lang.AssertionError">java.lang.AssertionError: The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at Tests.BlogTest.TestAboutShare54(BlogTest.java:731)
+</failure>
+  </testcase>
+  <testcase classname="Tests.BlogTest" name="TestAboutShare55" time="4.255">
+    <failure message="The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]" type="java.lang.AssertionError">java.lang.AssertionError: The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at Tests.BlogTest.TestAboutShare55(BlogTest.java:751)
+</failure>
+  </testcase>
+  <testcase classname="Tests.BlogTest" name="TestAboutShare56" time="4.135">
+    <failure message="The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]" type="java.lang.AssertionError">java.lang.AssertionError: The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at Tests.BlogTest.TestAboutShare56(BlogTest.java:762)
+</failure>
+  </testcase>
+  <testcase classname="Tests.BlogTest" name="TestAboutShare57" time="4.092">
+    <failure message="The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]" type="java.lang.AssertionError">java.lang.AssertionError: The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at Tests.BlogTest.TestAboutShare57(BlogTest.java:773)
+</failure>
+  </testcase>
+  <testcase classname="Tests.BlogTest" name="TestAboutShare58" time="4.092">
+    <failure message="The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]" type="java.lang.AssertionError">java.lang.AssertionError: The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at Tests.BlogTest.TestAboutShare58(BlogTest.java:784)
+</failure>
+  </testcase>
+  <testcase classname="Tests.BlogTest" name="TestAboutShare59" time="4.172">
+    <failure message="The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]" type="java.lang.AssertionError">java.lang.AssertionError: The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at Tests.BlogTest.TestAboutShare59(BlogTest.java:795)
+</failure>
+  </testcase>
+  <testcase classname="Tests.BlogTest" name="TestAboutShare6" time="2.615">
+    <failure message="The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]" type="java.lang.AssertionError">java.lang.AssertionError: The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at Tests.BlogTest.TestAboutShare6(BlogTest.java:108)
+</failure>
+  </testcase>
+  <testcase classname="Tests.BlogTest" name="TestAboutShare60" time="4.103">
+    <failure message="The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]" type="java.lang.AssertionError">java.lang.AssertionError: The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at Tests.BlogTest.TestAboutShare60(BlogTest.java:806)
+</failure>
+  </testcase>
+  <testcase classname="Tests.BlogTest" name="TestAboutShare61" time="4.846">
+    <failure message="The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]" type="java.lang.AssertionError">java.lang.AssertionError: The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at Tests.BlogTest.TestAboutShare61(BlogTest.java:826)
+</failure>
+  </testcase>
+  <testcase classname="Tests.BlogTest" name="TestAboutShare62" time="24.947">
+    <failure message="The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]" type="java.lang.AssertionError">java.lang.AssertionError: The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at Tests.BlogTest.TestAboutShare62(BlogTest.java:837)
+</failure>
+  </testcase>
+  <testcase classname="Tests.BlogTest" name="TestAboutShare63" time="4.295">
+    <failure message="The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]" type="java.lang.AssertionError">java.lang.AssertionError: The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at Tests.BlogTest.TestAboutShare63(BlogTest.java:848)
+</failure>
+  </testcase>
+  <testcase classname="Tests.BlogTest" name="TestAboutShare64" time="3.805">
+    <failure message="The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]" type="java.lang.AssertionError">java.lang.AssertionError: The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at Tests.BlogTest.TestAboutShare64(BlogTest.java:859)
+</failure>
+  </testcase>
+  <testcase classname="Tests.BlogTest" name="TestAboutShare65" time="4.162">
+    <failure message="The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]" type="java.lang.AssertionError">java.lang.AssertionError: The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at Tests.BlogTest.TestAboutShare65(BlogTest.java:870)
+</failure>
+  </testcase>
+  <testcase classname="Tests.BlogTest" name="TestAboutShare66" time="4.216">
+    <failure message="The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]" type="java.lang.AssertionError">java.lang.AssertionError: The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at Tests.BlogTest.TestAboutShare66(BlogTest.java:881)
+</failure>
+  </testcase>
+  <testcase classname="Tests.BlogTest" name="TestAboutShare67" time="4.158">
+    <failure message="The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]" type="java.lang.AssertionError">java.lang.AssertionError: The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at Tests.BlogTest.TestAboutShare67(BlogTest.java:901)
+</failure>
+  </testcase>
+  <testcase classname="Tests.BlogTest" name="TestAboutShare68" time="4.166">
+    <failure message="The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]" type="java.lang.AssertionError">java.lang.AssertionError: The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at Tests.BlogTest.TestAboutShare68(BlogTest.java:912)
+</failure>
+  </testcase>
+  <testcase classname="Tests.BlogTest" name="TestAboutShare69" time="3.802">
+    <failure message="The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]" type="java.lang.AssertionError">java.lang.AssertionError: The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at Tests.BlogTest.TestAboutShare69(BlogTest.java:923)
+</failure>
+  </testcase>
+  <testcase classname="Tests.BlogTest" name="TestAboutShare7" time="4.359">
+    <failure message="The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]" type="java.lang.AssertionError">java.lang.AssertionError: The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at Tests.BlogTest.TestAboutShare7(BlogTest.java:151)
+</failure>
+  </testcase>
+  <testcase classname="Tests.BlogTest" name="TestAboutShare70" time="4.111">
+    <failure message="The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]" type="java.lang.AssertionError">java.lang.AssertionError: The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at Tests.BlogTest.TestAboutShare70(BlogTest.java:934)
+</failure>
+  </testcase>
+  <testcase classname="Tests.BlogTest" name="TestAboutShare71" time="17.945">
+    <failure message="The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]" type="java.lang.AssertionError">java.lang.AssertionError: The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at Tests.BlogTest.TestAboutShare71(BlogTest.java:945)
+</failure>
+  </testcase>
+  <testcase classname="Tests.BlogTest" name="TestAboutShare72" time="4.369">
+    <failure message="The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]" type="java.lang.AssertionError">java.lang.AssertionError: The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at Tests.BlogTest.TestAboutShare72(BlogTest.java:956)
+</failure>
+  </testcase>
+  <testcase classname="Tests.BlogTest" name="TestAboutShare73" time="4.418">
+    <failure message="The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]" type="java.lang.AssertionError">java.lang.AssertionError: The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at Tests.BlogTest.TestAboutShare73(BlogTest.java:976)
+</failure>
+  </testcase>
+  <testcase classname="Tests.BlogTest" name="TestAboutShare74" time="4.262">
+    <failure message="The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]" type="java.lang.AssertionError">java.lang.AssertionError: The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at Tests.BlogTest.TestAboutShare74(BlogTest.java:987)
+</failure>
+  </testcase>
+  <testcase classname="Tests.BlogTest" name="TestAboutShare75" time="4.315">
+    <failure message="The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]" type="java.lang.AssertionError">java.lang.AssertionError: The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at Tests.BlogTest.TestAboutShare75(BlogTest.java:998)
+</failure>
+  </testcase>
+  <testcase classname="Tests.BlogTest" name="TestAboutShare76" time="4.171">
+    <failure message="The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]" type="java.lang.AssertionError">java.lang.AssertionError: The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at Tests.BlogTest.TestAboutShare76(BlogTest.java:1009)
+</failure>
+  </testcase>
+  <testcase classname="Tests.BlogTest" name="TestAboutShare77" time="4.128">
+    <failure message="The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]" type="java.lang.AssertionError">java.lang.AssertionError: The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at Tests.BlogTest.TestAboutShare77(BlogTest.java:1020)
+</failure>
+  </testcase>
+  <testcase classname="Tests.BlogTest" name="TestAboutShare78" time="4.277">
+    <failure message="The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]" type="java.lang.AssertionError">java.lang.AssertionError: The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at Tests.BlogTest.TestAboutShare78(BlogTest.java:1031)
+</failure>
+  </testcase>
+  <testcase classname="Tests.BlogTest" name="TestAboutShare79" time="4.157">
+    <failure message="The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]" type="java.lang.AssertionError">java.lang.AssertionError: The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at Tests.BlogTest.TestAboutShare79(BlogTest.java:1051)
+</failure>
+  </testcase>
+  <testcase classname="Tests.BlogTest" name="TestAboutShare8" time="4.071">
+    <failure message="The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]" type="java.lang.AssertionError">java.lang.AssertionError: The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at Tests.BlogTest.TestAboutShare8(BlogTest.java:162)
+</failure>
+  </testcase>
+  <testcase classname="Tests.BlogTest" name="TestAboutShare80" time="4.135">
+    <failure message="The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]" type="java.lang.AssertionError">java.lang.AssertionError: The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at Tests.BlogTest.TestAboutShare80(BlogTest.java:1062)
+</failure>
+  </testcase>
+  <testcase classname="Tests.BlogTest" name="TestAboutShare81" time="4.097">
+    <failure message="The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]" type="java.lang.AssertionError">java.lang.AssertionError: The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at Tests.BlogTest.TestAboutShare81(BlogTest.java:1073)
+</failure>
+  </testcase>
+  <testcase classname="Tests.BlogTest" name="TestAboutShare82" time="4.029">
+    <failure message="The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]" type="java.lang.AssertionError">java.lang.AssertionError: The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at Tests.BlogTest.TestAboutShare82(BlogTest.java:1084)
+</failure>
+  </testcase>
+  <testcase classname="Tests.BlogTest" name="TestAboutShare83" time="4.207">
+    <failure message="The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]" type="java.lang.AssertionError">java.lang.AssertionError: The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at Tests.BlogTest.TestAboutShare83(BlogTest.java:1095)
+</failure>
+  </testcase>
+  <testcase classname="Tests.BlogTest" name="TestAboutShare84" time="4.099">
+    <failure message="The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]" type="java.lang.AssertionError">java.lang.AssertionError: The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at Tests.BlogTest.TestAboutShare84(BlogTest.java:1106)
+</failure>
+  </testcase>
+  <testcase classname="Tests.BlogTest" name="TestAboutShare9" time="4.155">
+    <failure message="The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]" type="java.lang.AssertionError">java.lang.AssertionError: The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at Tests.BlogTest.TestAboutShare9(BlogTest.java:173)
+</failure>
+  </testcase>
+  <testcase classname="Tests.BlogTest" name="TestButtonEight" time="2.621">
+    <failure message="The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]" type="java.lang.AssertionError">java.lang.AssertionError: The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at Tests.BlogTest.TestButtonEight(BlogTest.java:590)
+</failure>
+  </testcase>
+  <testcase classname="Tests.BlogTest" name="TestButtonEleven" time="3.045">
+    <failure message="The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]" type="java.lang.AssertionError">java.lang.AssertionError: The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at Tests.BlogTest.TestButtonEleven(BlogTest.java:815)
+</failure>
+  </testcase>
+  <testcase classname="Tests.BlogTest" name="TestButtonFive" time="2.435">
+    <failure message="The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]" type="java.lang.AssertionError">java.lang.AssertionError: The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at Tests.BlogTest.TestButtonFive(BlogTest.java:365)
+</failure>
+  </testcase>
+  <testcase classname="Tests.BlogTest" name="TestButtonFour" time="2.441">
+    <failure message="The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]" type="java.lang.AssertionError">java.lang.AssertionError: The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at Tests.BlogTest.TestButtonFour(BlogTest.java:290)
+</failure>
+  </testcase>
+  <testcase classname="Tests.BlogTest" name="TestButtonFourteen" time="2.548">
+    <failure message="The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]" type="java.lang.AssertionError">java.lang.AssertionError: The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at Tests.BlogTest.TestButtonFourteen(BlogTest.java:1040)
+</failure>
+  </testcase>
+  <testcase classname="Tests.BlogTest" name="TestButtonNine" time="2.401">
+    <failure message="The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]" type="java.lang.AssertionError">java.lang.AssertionError: The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at Tests.BlogTest.TestButtonNine(BlogTest.java:665)
+</failure>
+  </testcase>
+  <testcase classname="Tests.BlogTest" name="TestButtonSeven" time="2.398">
+    <failure message="The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]" type="java.lang.AssertionError">java.lang.AssertionError: The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at Tests.BlogTest.TestButtonSeven(BlogTest.java:515)
+</failure>
+  </testcase>
+  <testcase classname="Tests.BlogTest" name="TestButtonSix" time="2.358">
+    <failure message="The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]" type="java.lang.AssertionError">java.lang.AssertionError: The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at Tests.BlogTest.TestButtonSix(BlogTest.java:440)
+</failure>
+  </testcase>
+  <testcase classname="Tests.BlogTest" name="TestButtonTen" time="2.508">
+    <failure message="The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]" type="java.lang.AssertionError">java.lang.AssertionError: The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at Tests.BlogTest.TestButtonTen(BlogTest.java:740)
+</failure>
+  </testcase>
+  <testcase classname="Tests.BlogTest" name="TestButtonThirteen" time="2.365">
+    <failure message="The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]" type="java.lang.AssertionError">java.lang.AssertionError: The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at Tests.BlogTest.TestButtonThirteen(BlogTest.java:965)
+</failure>
+  </testcase>
+  <testcase classname="Tests.BlogTest" name="TestButtonThree" time="2.454">
+    <failure message="The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]" type="java.lang.AssertionError">java.lang.AssertionError: The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at Tests.BlogTest.TestButtonThree(BlogTest.java:215)
+</failure>
+  </testcase>
+  <testcase classname="Tests.BlogTest" name="TestButtonTwelwe" time="2.939">
+    <failure message="The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]" type="java.lang.AssertionError">java.lang.AssertionError: The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at Tests.BlogTest.TestButtonTwelwe(BlogTest.java:890)
+</failure>
+  </testcase>
+  <testcase classname="Tests.BlogTest" name="TestButtonTwo" time="2.435">
+    <failure message="The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]" type="java.lang.AssertionError">java.lang.AssertionError: The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at Tests.BlogTest.TestButtonTwo(BlogTest.java:140)
+</failure>
+  </testcase>
+  <testcase classname="Tests.BlogTest" name="TestButtonsbar" time="3.562">
+    <failure message="The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]" type="java.lang.AssertionError">java.lang.AssertionError: The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at Tests.BlogTest.TestButtonsbar(BlogTest.java:131)
+</failure>
+  </testcase>
+  <testcase classname="Tests.BlogTest" name="TestCalculator" time="2.751">
+    <failure message="The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]" type="java.lang.AssertionError">java.lang.AssertionError: The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at Tests.BlogTest.TestCalculator(BlogTest.java:1215)
+</failure>
+  </testcase>
+  <testcase classname="Tests.BlogTest" name="TestShareSitebar" time="5.378">
+    <failure message="The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]" type="java.lang.AssertionError">java.lang.AssertionError: The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at Tests.BlogTest.TestShareSitebar(BlogTest.java:1204)
+</failure>
+  </testcase>
+  <testcase classname="Tests.BlogTest" name="TestSharesHeader" time="1.604">
+    <failure message="The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]" type="java.lang.AssertionError">java.lang.AssertionError: The following asserts failed:
+	expected [Семестр университета в Украине стоит недешево и даже если речь идет о бюджетной форме, расходов не избежать: канцелярия, учебники, аренда жилья, оплата курсов и даже проезд домой. Где взять деньги и что делать, если они нужны уже сегодня?] but found [Когда начинают звонить сотрудники коллекторской компании, начинаешь думать о том, насколько законны их действия и стоит ли им платить? Имеет ли банк право «подключить» к работе 3-х лиц, если процесс взыскания станет эффективнее?],
+	expected [http://dev2.mycredit.com.ua/ru/blog/gde-vzyat-kredit-studentam-na-obuchenie/] but found [http://dev2.mycredit.com.ua/ru/blog/kak-ne-platit-kredit-kollektoram-v-ukraine/]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at Tests.BlogTest.TestSharesHeader(BlogTest.java:42)
+</failure>
+  </testcase>
+  <testcase classname="Tests.SharesTest" name="TestAboutShare1" time="3.422"/>
+  <testcase classname="Tests.SharesTest" name="TestAboutShare10" time="3.939"/>
+  <testcase classname="Tests.SharesTest" name="TestAboutShare11" time="4.042"/>
+  <testcase classname="Tests.SharesTest" name="TestAboutShare12" time="4.226"/>
+  <testcase classname="Tests.SharesTest" name="TestAboutShare13" time="3.869"/>
+  <testcase classname="Tests.SharesTest" name="TestAboutShare14" time="4.127"/>
+  <testcase classname="Tests.SharesTest" name="TestAboutShare15" time="4.349"/>
+  <testcase classname="Tests.SharesTest" name="TestAboutShare16" time="4.055"/>
+  <testcase classname="Tests.SharesTest" name="TestAboutShare17" time="4.082"/>
+  <testcase classname="Tests.SharesTest" name="TestAboutShare18" time="3.939"/>
+  <testcase classname="Tests.SharesTest" name="TestAboutShare19" time="4.936"/>
+  <testcase classname="Tests.SharesTest" name="TestAboutShare2" time="2.564"/>
+  <testcase classname="Tests.SharesTest" name="TestAboutShare20" time="4.209"/>
+  <testcase classname="Tests.SharesTest" name="TestAboutShare21" time="3.889"/>
+  <testcase classname="Tests.SharesTest" name="TestAboutShare3" time="2.575"/>
+  <testcase classname="Tests.SharesTest" name="TestAboutShare4" time="2.655"/>
+  <testcase classname="Tests.SharesTest" name="TestAboutShare5" time="2.645"/>
+  <testcase classname="Tests.SharesTest" name="TestAboutShare6" time="1.969"/>
+  <testcase classname="Tests.SharesTest" name="TestAboutShare7" time="4.173"/>
+  <testcase classname="Tests.SharesTest" name="TestAboutShare8" time="4.173"/>
+  <testcase classname="Tests.SharesTest" name="TestAboutShare9" time="4.215"/>
+  <testcase classname="Tests.SharesTest" name="TestButtonFour" time="3"/>
+  <testcase classname="Tests.SharesTest" name="TestButtonThree" time="2.977"/>
+  <testcase classname="Tests.SharesTest" name="TestButtonsbar" time="3.079"/>
+  <testcase classname="Tests.SharesTest" name="TestButtontwo" time="2.94"/>
+  <testcase classname="Tests.SharesTest" name="TestCalculator" time="3.485"/>
+  <testcase classname="Tests.SharesTest" name="TestShareSitebar" time="3.323"/>
+  <testcase classname="Tests.SharesTest" name="TestSharesHeader" time="1.5"/>
+</testsuite>

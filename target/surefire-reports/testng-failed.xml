@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="Tests.BlogTest">
+        <methods>
+          <include name="TestAboutShare70"/>
+          <include name="TestAboutShare72"/>
+          <include name="TestButtonEight"/>
+          <include name="TestButtonEleven"/>
+          <include name="TestButtonTwo"/>
+          <include name="TestAboutShare68"/>
+          <include name="TestCalculator"/>
+          <include name="TestAboutShare67"/>
+          <include name="TestAboutShare64"/>
+          <include name="TestAboutShare69"/>
+          <include name="TestAboutShare66"/>
+          <include name="TestAboutShare63"/>
+          <include name="TestAboutShare60"/>
+          <include name="TestAboutShare65"/>
+          <include name="TestAboutShare62"/>
+          <include name="TestAboutShare61"/>
+          <include name="TestButtonThree"/>
+          <include name="Quit"/>
+          <include name="TestShareSitebar"/>
+          <include name="TestAboutShare57"/>
+          <include name="TestAboutShare59"/>
+          <include name="TestAboutShare56"/>
+          <include name="TestAboutShare53"/>
+          <include name="TestAboutShare58"/>
+          <include name="TestAboutShare55"/>
+          <include name="TestAboutShare52"/>
+          <include name="TestAboutShare54"/>
+          <include name="TestAboutShare51"/>
+          <include name="TestAboutShare50"/>
+          <include name="TestButtonFour"/>
+          <include name="TestButtonSeven"/>
+          <include name="getDriver"/>
+          <include name="TestButtonFive"/>
+          <include name="TestAboutShare49"/>
+          <include name="TestAboutShare46"/>
+          <include name="TestAboutShare48"/>
+          <include name="TestButtonNine"/>
+          <include name="TestAboutShare45"/>
+          <include name="TestButtonTen"/>
+          <include name="TestAboutShare42"/>
+          <include name="TestButtonThirteen"/>
+          <include name="TestAboutShare47"/>
+          <include name="TestAboutShare44"/>
+          <include name="TestAboutShare41"/>
+          <include name="TestAboutShare82"/>
+          <include name="TestAboutShare43"/>
+          <include name="TestAboutShare40"/>
+          <include name="TestAboutShare84"/>
+          <include name="TestAboutShare81"/>
+          <include name="TestButtonSix"/>
+          <include name="TestAboutShare83"/>
+          <include name="TestAboutShare80"/>
+          <include name="TestButtonTwelwe"/>
+          <include name="TestAboutShare39"/>
+          <include name="TestAboutShare5"/>
+          <include name="TestSharesHeader"/>
+          <include name="TestAboutShare4"/>
+          <include name="TestAboutShare7"/>
+          <include name="TestButtonFourteen"/>
+          <include name="TestAboutShare38"/>
+          <include name="TestAboutShare6"/>
+          <include name="TestAboutShare35"/>
+          <include name="TestAboutShare79"/>
+          <include name="TestAboutShare9"/>
+          <include name="TestAboutShare8"/>
+          <include name="TestAboutShare37"/>
+          <include name="TestAboutShare78"/>
+          <include name="TestAboutShare75"/>
+          <include name="TestButtonsbar"/>
+          <include name="TestAboutShare36"/>
+          <include name="TestAboutShare77"/>
+          <include name="TestAboutShare74"/>
+          <include name="TestAboutShare71"/>
+          <include name="TestAboutShare76"/>
+          <include name="TestAboutShare73"/>
+        </methods>
+      </class> <!-- Tests.BlogTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

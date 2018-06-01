@@ -1,0 +1,5 @@
+[1222/152216.947:ERROR:process_info.cc(632)] range at 0x22c636e600000000, size 0x25c fully unreadable
+[1222/152216.948:ERROR:process_info.cc(632)] range at 0x22c6374a00000000, size 0x25c fully unreadable
+[1222/152216.949:ERROR:process_info.cc(632)] range at 0x0, size 0x25c fully unreadable
+[1222/152217.075:ERROR:file_io_win.cc(170)] CreateFile C:\Users\user\AppData\Local\Temp\scoped_dir33136_31434\Crashpad\reports\22c5bb27-ba52-426d-b1fc-e4bb1d7adb4c.dmp: Системе не удается найти указанный путь. (0x3)
+[1222/152217.075:ERROR:crash_report_exception_handler.cc(97)] PrepareNewCrashReport failed
